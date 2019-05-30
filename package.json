@@ -1,12 +1,43 @@
 {
   "name": "arraylist-tn",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "this module is for use ArrayList in javascript/typescript like java dev.. ",
+  "main": "dist/Array List.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint --project \"./tsconfig.json\"",
+    "ci": "npm run lint && npm run build",
+    "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm run ci",
+    "preversion": "npm run ci"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/3imed-jaberi/arraylist-tn.git"
+  },
+  "keywords": [
+    "data-structure",
+    "collection",
+    "array-list",
+    "arraylist",
+    "array",
+    "list",
+    "oop",
+    "java-dev",
+    "c#-dev",
+    "c++-dev",
+    "deep-oop"
+  ],
+  "author": "imed jaberi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/arraylist-tn/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/arraylist-tn#readme",
+  "devDependencies": {
+    "@types/node": "^11.13.6",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
+  }
 }
