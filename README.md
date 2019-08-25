@@ -36,7 +36,7 @@ This is a basic example :
 // ==> version : 1.0.0 ;
 // const { ArrayList } = require ('arraylist-tn'); 
 //
-// ==> current version : 1.2.0 ; now we support import default.
+// ==> current version : 1.1.0 ; now we support import default.
 //
 const ArrayList = require ('arraylist-tn');  // || const { ArrayList } = require ('arraylist-tn'); 
 
