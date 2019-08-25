@@ -137,4 +137,5 @@ class ArrayList {
 exports.default = ArrayList;
 // For CommonJS default export support 
 module.exports = ArrayList;
+module.exports.ArrayList = ArrayList;
 module.exports.default = ArrayList;
