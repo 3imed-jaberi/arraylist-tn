@@ -6,17 +6,19 @@
 
 ###### **`NOTE:`** you can send to me for add anything you want in [instgram](https://www.instagram.com/3imed_jaberi/) ..
 
+
 ## Installation 
 ---
-
 - NPM :
 ```bash
 $ npm install arraylist-tn
 ```
+
 - YARN :
 ```bash
 $ yarn add arraylist-tn
 ```
+
 
 ## Usage 
 ---
@@ -24,11 +26,19 @@ $ yarn add arraylist-tn
 
 ![all-methods-for-now-v1](img/all-methods-for-now.png)
 
+
 ## Example
 ----
 This is a basic example : 
+
 ```javascript
-const { ArrayList } = require ('arraylist-tn');
+//
+// ==> version : 1.0.0 ;
+// const { ArrayList } = require ('arraylist-tn'); 
+//
+// ==> current version : 1.2.0 ; now we support import default.
+//
+const ArrayList = require ('arraylist-tn');  // || const { ArrayList } = require ('arraylist-tn'); 
 
 const myList = new ArrayList();
 myList.add('imed jaberi');
@@ -49,7 +59,7 @@ console.log(myList.getAll()); // [ 100, 50, 0, -50, -100 ]
 
 ```
 
+
 #### License
 ---
 [MIT](https://choosealicense.com/licenses/mit/) 
-
