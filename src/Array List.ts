@@ -3,7 +3,7 @@ import ArrayList_Interface from "./Array List - Interface";
 
 
 
-export class ArrayList implements ArrayList_Interface {
+class ArrayList implements ArrayList_Interface {
 
     /**
      * @private array of any type you want .. 
@@ -158,3 +158,8 @@ export class ArrayList implements ArrayList_Interface {
     }
 }
 
+export default ArrayList;
+
+// For CommonJS default export support 
+module.exports = ArrayList;
+module.exports.default = ArrayList;

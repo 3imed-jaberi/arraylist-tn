@@ -1,5 +1,5 @@
 import ArrayList_Interface from "./Array List - Interface";
-export declare class ArrayList implements ArrayList_Interface {
+declare class ArrayList implements ArrayList_Interface {
     /**
      * @private array of any type you want ..
      */
@@ -81,3 +81,4 @@ export declare class ArrayList implements ArrayList_Interface {
      */
     sort(typeOfSort?: string): any;
 }
+export default ArrayList;
