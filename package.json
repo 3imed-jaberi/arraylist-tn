@@ -36,8 +36,7 @@
   },
   "homepage": "https://github.com/3imed-jaberi/arraylist-tn#readme",
   "devDependencies": {
-    "@types/node": "^11.13.6",
-    "tslint": "^5.16.0",
-    "typescript": "^3.4.4"
+    "@types/node": "^12.7.2",
+    "typescript": "^3.5.3"
   }
 }
