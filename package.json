@@ -1,13 +1,12 @@
 {
   "name": "arraylist-tn",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "this module is for use ArrayList in javascript/typescript like java dev.. ",
   "main": "dist/Array List.js",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "lint": "tslint --project \"./tsconfig.json\"",
-    "ci": "npm run lint && npm run build",
+    "ci": "npm run build",
     "postversion": "git push && git push --tags",
     "prepublishOnly": "npm run ci",
     "preversion": "npm run ci"
