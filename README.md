@@ -2,7 +2,7 @@
 ---
 [![Build Status](https://travis-ci.org/3imed-jaberi/arraylist-tn.svg?branch=master)](https://travis-ci.org/3imed-jaberi/arraylist-tn)
 
-### you can now use the arraylist in you typescript and javascript code easily ..
+### You can now use the arraylist in you typescript and javascript code easily ..
 
 ###### **`NOTE:`** you can send to me for add anything you want in [instgram](https://www.instagram.com/3imed_jaberi/) ..
 
@@ -24,7 +24,7 @@ $ yarn add arraylist-tn
 ---
 #### You can use this module like [ArrayList in the JAVA](https://www.w3schools.com/java/java_arraylist.asp) .. you don't need to change any thing ..
 
-![all-methods-for-now-v1](img/all-methods-for-now.png)
+![all-methods-for-now-v1](all-current-methods.png)
 
 
 ## Example
