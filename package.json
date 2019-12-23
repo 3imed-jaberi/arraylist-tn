@@ -1,7 +1,7 @@
 {
   "name": "arraylist-tn",
-  "version": "1.1.0",
-  "description": "this module is for use ArrayList in javascript/typescript like java dev.. ",
+  "version": "1.1.1",
+  "description": " this module is for use ArrayList in javascript/typescript like java dev 🧬 .. ",
   "main": "dist/Array List.js",
   "scripts": {
     "build": "tsc",
@@ -28,7 +28,10 @@
     "c++-dev",
     "deep-oop"
   ],
-  "author": "imed jaberi",
+  "author": {
+    "name": "imed jaberi",
+    "email": "3imed.jaberi@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/3imed-jaberi/arraylist-tn/issues"
