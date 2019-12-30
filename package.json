@@ -1,8 +1,8 @@
 {
   "name": "arraylist-tn",
-  "version": "1.1.1",
-  "description": " this module is for use ArrayList in javascript/typescript like java dev 🧬 .. ",
-  "main": "dist/Array List.js",
+  "version": "1.2.0",
+  "description": " This module is for use ArrayList in javascript/typescript like java dev 🧬 .. ",
+  "main": "dist/ArrayList.js",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
