@@ -4,17 +4,17 @@
 
 ### You can now use the arraylist in you typescript and javascript code easily ..
 
-###### **`NOTE:`** you can send to me for add anything you want in [instgram](https://www.instagram.com/3imed_jaberi/) ..
-
 
 ## Installation 
 ---
 - NPM :
+
 ```bash
 $ npm install arraylist-tn
 ```
 
 - YARN :
+
 ```bash
 $ yarn add arraylist-tn
 ```
