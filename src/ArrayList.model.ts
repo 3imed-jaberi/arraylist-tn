@@ -1,5 +1,8 @@
+// ################################
+// #        ArrayList Model       #
+// ################################
 
-interface ArrayList_Interface {
+interface IArrayList {
   
   add (value:any):void ;
      
@@ -32,4 +35,4 @@ interface ArrayList_Interface {
 };
      
      
-export default ArrayList_Interface ;
+export default IArrayList ;

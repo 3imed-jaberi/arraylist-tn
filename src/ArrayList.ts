@@ -1,9 +1,8 @@
-
-import ArrayList_Interface from "./Array List - Interface";
-
+import IArrayList from "./ArrayList.model";
 
 
-class ArrayList implements ArrayList_Interface {
+
+class ArrayList implements IArrayList {
 
     /**
      * @private array of any type you want .. 
@@ -21,7 +20,7 @@ class ArrayList implements ArrayList_Interface {
      * add one value to the @ArrayList ..
      * @param {string|number|object} value : one string or number or object .. 
      */
-    public add (value:string|number|object):void {
+    public add (value: string|number|object):void {
           this.ArrayList.push(value);
     }
 
@@ -29,7 +28,7 @@ class ArrayList implements ArrayList_Interface {
      * add all values to the @ArrayList ..
      * @param { Array<any> } array : array of any type .. 
      */
-    public addAll (array:any[]):void {
+    public addAll(array: any[] ): void {
           array.forEach(element => this.ArrayList.push(element));
     }
 
@@ -37,21 +36,21 @@ class ArrayList implements ArrayList_Interface {
      * delete element with the input index .. 
      * @param { number } index : index of the element you want to remove .. 
      */
-    public remove (index:number):void {
+    public remove (index: number): void {
           this.ArrayList = this.ArrayList.filter(element => element !== this.ArrayList[index] ) ;
     }
 
     /**
      * remove all elements ( re-init not destroy => [] ) .. 
      */
-    public removeAll ():void {
+    public removeAll(): void {
           this.ArrayList = [] ;
     }
 
     /**
      * get the length of the array list .. 
      */
-    public size ():number {
+    public size (): number {
           return this.ArrayList.length ;
     }
 
@@ -59,14 +58,14 @@ class ArrayList implements ArrayList_Interface {
      * get the value you want with index .. 
      * @param { number } index : index of the element you want to get .. 
      */
-    public get (index:number):any {
+    public get (index: number): any {
           return (index < 0 || index >= this.size()) ? -1 : this.ArrayList[index] ;
     }
 
     /**
      * get all values .. 
      */
-    public getAll ():any {
+    public getAll (): any {
           return this.ArrayList ;
     }
 
@@ -75,14 +74,14 @@ class ArrayList implements ArrayList_Interface {
      * @param { number } index : index of the value you wan to update .. 
      * @param { any } value : new value .. 
      */
-    public set (index:number , value:any):void {
+    public set (index: number , value: any): void {
           this.ArrayList[index] = value ;
     }
 
     /**
      * check the arraylist : isEmpty or No .. 
      */
-    public isEmpty ():boolean {
+    public isEmpty (): boolean {
           return this.ArrayList.length === 0 ;
     }
 
@@ -90,7 +89,7 @@ class ArrayList implements ArrayList_Interface {
      * check the existence of a value ( isExist ) ..
      * @param { any } value : input value for check the existence .. 
      */
-    public contains (value:any):boolean {
+    public contains (value: any): boolean {
           return this.ArrayList.filter(element => element === value).length !== 0 ;                      
     }
 
@@ -98,7 +97,7 @@ class ArrayList implements ArrayList_Interface {
      * get the first index of input value .. 
      * @param { any } value : input value for search .. 
      */
-    public indexOf (value:any):number {
+    public indexOf (value: any): number {
           return this.ArrayList.indexOf(value);
     }
 
@@ -106,7 +105,7 @@ class ArrayList implements ArrayList_Interface {
      * get the last index of input value .. 
      * @param { any } value : input value for search .. 
      */
-    public lastIndexOf (value:any):number {
+    public lastIndexOf (value: any): number {
           return this.ArrayList.lastIndexOf(value);
     }    
 
@@ -114,7 +113,7 @@ class ArrayList implements ArrayList_Interface {
      * get the number of all input value .. 
      * @param { any } value : input value for search .. 
      */
-    public nbrIndex (value:any):number {
+    public nbrIndex (value: any): number {
             let nb = 0 ;
           this.ArrayList.forEach(element => {
                     if ( element === value ){
@@ -129,8 +128,8 @@ class ArrayList implements ArrayList_Interface {
      * basic ASC sort for the arraylist .. 
      * @param { Array<any> } table_name : array you want to sort .. 
      */
-    private sortASC (table_name:Array<any>):any[] {
-          return table_name.sort( (a:any, b:any) => {
+    private sortASC (table_name: Array<any>): any[] {
+          return table_name.sort( (a: any, b: any) => {
  
                     if (a < b) {
                               return -1;
@@ -147,7 +146,7 @@ class ArrayList implements ArrayList_Interface {
        * sort the arraylist .. 
        * @param { string } typeOfSort : type of sort ( the default is ASC but you can use DESC for the inverse ) ..
        */
-    public sort (typeOfSort?:string):any {
+    public sort (typeOfSort?: string): any {
           if ((typeOfSort === undefined) || (typeOfSort.toLowerCase() === "asc")){
                     this.sortASC(this.ArrayList); 
           }else if (typeOfSort.toLowerCase() === "desc"){
@@ -158,7 +157,10 @@ class ArrayList implements ArrayList_Interface {
     }
 }
 
+
 export default ArrayList;
+
+
 
 // For CommonJS default export support 
 module.exports = ArrayList;
