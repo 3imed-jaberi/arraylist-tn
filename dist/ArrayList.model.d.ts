@@ -1,4 +1,4 @@
-interface ArrayList_Interface {
+interface IArrayList {
     add(value: any): void;
     addAll(array: any[]): void;
     remove(index: number): void;
@@ -14,4 +14,4 @@ interface ArrayList_Interface {
     nbrIndex(value: any): number;
     sort(typeOfSort?: string): any;
 }
-export default ArrayList_Interface;
+export default IArrayList;

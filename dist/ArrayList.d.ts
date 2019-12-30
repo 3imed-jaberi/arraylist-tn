@@ -1,5 +1,5 @@
-import ArrayList_Interface from "./Array List - Interface";
-declare class ArrayList implements ArrayList_Interface {
+import IArrayList from "./ArrayList.model";
+declare class ArrayList implements IArrayList {
     /**
      * @private array of any type you want ..
      */
