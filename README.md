@@ -1,9 +1,7 @@
 # ARRAYLIST-TN
 ---
 
-[![Build Status](https://travis-ci.org/3imed-jaberi/arraylist-tn.svg?branch=master)](https://travis-ci.org/3imed-jaberi/arraylist-tn)
-
-[![Coverage Status](https://coveralls.io/repos/github/3imed-jaberi/arraylist-tn/badge.svg?branch=master)](https://coveralls.io/github/3imed-jaberi/arraylist-tn?branch=master)
+[![Build Status](https://travis-ci.org/3imed-jaberi/arraylist-tn.svg?branch=master)](https://travis-ci.org/3imed-jaberi/arraylist-tn) &nbsp; [![Coverage Status](https://coveralls.io/repos/github/3imed-jaberi/arraylist-tn/badge.svg?branch=master)](https://coveralls.io/github/3imed-jaberi/arraylist-tn?branch=master)
 
 
 ### You can now use the arraylist in you typescript and javascript code easily ..
