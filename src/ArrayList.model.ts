@@ -4,33 +4,33 @@
 
 interface IArrayList {
   
-  add (value:any):void ;
+  add(value: any): void;
      
-  addAll (array:any[]):void;
+  addAll(array: any[]): void;
      
-  remove (index:number):void ;
+  remove (index: number): void;
      
-  removeAll ():void ;
+  removeAll(): void;
      
-  size ():number ;
+  size(): number ;
      
-  get (index:number):any;
+  get(index: number): any;
      
-  getAll ():any ;
+  getAll(): any;
      
-  set (index:number , value:any):void;
+  set(index: number, value: any): void;
      
-  isEmpty ():boolean ;
+  isEmpty(): boolean;
      
-  contains (value:any):boolean;
+  contains(value: any): boolean;
      
-  indexOf (value:any):number;
+  indexOf(value: any): number;
      
-  lastIndexOf (value:any):number;
+  lastIndexOf(value: any): number;
      
-  nbrIndex (value:any):number ;
+  nbrIndex(value: any): number;
      
-  sort (typeOfSort?:string):any ;
+  sort(typeOfSort?: string): any;
           
 };
      
