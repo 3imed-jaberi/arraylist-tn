@@ -1,8 +1,8 @@
 {
   "name": "arraylist-tn",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": " This module is for use ArrayList in javascript/typescript like java dev 🧬 .. ",
-  "main": "dist/ArrayList.js",
+  "main": "dist/src/ArrayList.js",
   "scripts": {
     "test": "mocha --require ts-node/register test/**/*.spec.ts",
     "build": "tsc",
