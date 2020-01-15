@@ -24,20 +24,17 @@ $ yarn add arraylist-tn
 ---
 #### You can use this module like [ArrayList in the JAVA](https://www.w3schools.com/java/java_arraylist.asp) .. you don't need to change any thing ..
 
-![all-methods-for-now-v1](all-current-methods.png)
+## Support Methods : 
+----
+Please see the list [here](https://github.com/3imed-jaberi/arraylist-tn/blob/master/src/ArrayList.model.ts);
 
 
 ## Example
 ----
-This is a basic example : 
+This is a basic example or follow all test cases [here](https://github.com/3imed-jaberi/arraylist-tn/test/ArrayList.spec.ts) : 
 
 ```javascript
-//
-// ==> version : 1.0.0 ;
-// const { ArrayList } = require ('arraylist-tn'); 
-//
-// ==> current version : 1.1.0 ; now we support import default.
-//
+
 const ArrayList = require ('arraylist-tn');  // || const { ArrayList } = require ('arraylist-tn'); 
 
 const myList = new ArrayList();
