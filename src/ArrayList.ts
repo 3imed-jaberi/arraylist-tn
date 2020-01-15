@@ -117,11 +117,10 @@ class ArrayList implements IArrayList {
     let nb = 0;
     this.ArrayList.forEach(element => {
       if (element === value){
-        nb++ ;
+        nb++;
       }
     });
-
-    return nb ;
+    return nb;
   }
 
   /**
@@ -144,7 +143,7 @@ class ArrayList implements IArrayList {
    * sort the arraylist .. 
    * @param {string} typeOfSort: type of sort ( the default is ASC but you can use DESC for the inverse ) ..
    */
-  public sort (typeOfSort?: string): any {
+  public sort(typeOfSort?: string): any {
     if ((typeOfSort === undefined) || (typeOfSort.toLowerCase() === 'asc')){
       this.sortASC(this.ArrayList); 
     }else if (typeOfSort.toLowerCase() === 'desc'){
@@ -154,6 +153,7 @@ class ArrayList implements IArrayList {
     }
   }
 }
+
 
 
 export default ArrayList;
