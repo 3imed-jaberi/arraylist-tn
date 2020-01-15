@@ -4,9 +4,11 @@
   "description": " This module is for use ArrayList in javascript/typescript like java dev 🧬 .. ",
   "main": "dist/ArrayList.js",
   "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.spec.ts",
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "ci": "npm run build",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha dist/test/*.js - - -R spec",
+    "ci": "npm run build && npm run cover",
     "postversion": "git push && git push --tags",
     "prepublishOnly": "npm run ci",
     "preversion": "npm run ci"
@@ -38,7 +40,15 @@
   },
   "homepage": "https://github.com/3imed-jaberi/arraylist-tn#readme",
   "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/istanbul": "^0.4.30",
+    "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.2",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.9",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.0.0",
+    "ts-node": "^8.6.2",
     "typescript": "^3.5.3"
   }
 }
