@@ -4,6 +4,8 @@
 [![Build Status](https://travis-ci.org/3imed-jaberi/arraylist-tn.svg?branch=master)](https://travis-ci.org/3imed-jaberi/arraylist-tn)
 
 [![Coverage Status](https://coveralls.io/repos/github/3imed-jaberi/arraylist-tn/badge.svg?branch=master)](https://coveralls.io/github/3imed-jaberi/arraylist-tn?branch=master)
+
+
 ### You can now use the arraylist in you typescript and javascript code easily ..
 
 
@@ -27,14 +29,14 @@ $ yarn add arraylist-tn
 #### You can use this module like [ArrayList in the JAVA](https://www.w3schools.com/java/java_arraylist.asp) .. you don't need to change any thing ..
 
 
-## Support Methods : 
+## Support Methods
 ----
-Please see the list [here](https://github.com/3imed-jaberi/arraylist-tn/blob/master/src/ArrayList.model.ts);
+Please see the list [here](https://github.com/3imed-jaberi/arraylist-tn/blob/master/src/ArrayList.model.ts).
 
 
 ## Example
 ----
-This is a basic example or follow all test cases [here](https://github.com/3imed-jaberi/arraylist-tn/test/ArrayList.spec.ts) : 
+This is a basic example or follow all test cases [here](https://github.com/3imed-jaberi/arraylist-tn/test/ArrayList.spec.ts): 
 
 ```javascript
 
@@ -62,4 +64,4 @@ console.log(myList.getAll()); // [ 100, 50, 0, -50, -100 ]
 
 #### License
 ---
-[MIT](https://choosealicense.com/licenses/mit/) 
+[MIT](https://choosealicense.com/licenses/mit/)
