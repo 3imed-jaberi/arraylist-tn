@@ -1,13 +1,14 @@
 {
   "name": "arraylist-tn",
-  "version": "2.0.0",
-  "description": " This module is for use ArrayList in javascript/typescript like java dev 🧬 .. ",
-  "main": "dist/src/ArrayList.js",
+  "version": "3.0.0",
+  "description": "Java array-list implementation for javascript/typescript 🧬 ..",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha --require ts-node/register test/**/*.spec.ts",
+    "test": "mocha --require ts-node/register index.spec.ts",
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha dist/test/*.js - - -R spec",
+    "cover": "echo wait to migrate with nyc",
     "ci": "npm run build && npm run cover",
     "postversion": "git push && git push --tags",
     "prepublishOnly": "npm run ci",
@@ -25,20 +26,14 @@
     "array",
     "list",
     "oop",
-    "java-dev",
-    "c#-dev",
-    "c++-dev",
-    "deep-oop"
+    "java-dev"
   ],
   "author": {
     "name": "imed jaberi",
-    "email": "3imed.jaberi@gmail.com"
+    "email": "imed-jaberi@outlook.com",
+    "url": "https://www.3imed-jaberi.com"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/3imed-jaberi/arraylist-tn/issues"
-  },
-  "homepage": "https://github.com/3imed-jaberi/arraylist-tn#readme",
   "devDependencies": {
     "@types/chai": "^4.2.7",
     "@types/istanbul": "^0.4.30",
@@ -50,5 +45,12 @@
     "mocha": "^7.0.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.5.3"
-  }
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/arraylist-tn/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/arraylist-tn#readme"
 }
